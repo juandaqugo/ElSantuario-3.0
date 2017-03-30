@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">El Santuario</string>
+    <string name="titulo">El Santuario</string>
+    <string name="username">Nombre de Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="iniciar">Iniciar</string>
+    <string name="registrese">Registrese</string>
+    <string name="registro">Registro</string>
+    <string name="rpassword">Repetir Contraseña</string>
+    <string name="correo">Correo Electrónico</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="miperfil">Mi Perfil</string>
+    <string name="cerrar">Cerrar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="elsantuario1">El Santuario</string>
+    <string name="title_activity_hoteles">HotelesActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="bares">Bares</string>
+    <string name="hoteles">Hoteles</string>
+    <string name="title_activity_fragments">BARES</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="sitios">Sitios Turisticos</string>
+    <string name="erotanatos">Erotanatos Bar</string>
+    <string name="erotanatosdescr">Erotanatos bar es un lugar ubicado en el sector de la judea. Si te gusta el rock este es el lugar adecuado.</string>
+    <string name="dondedondo">Donde Dondo</string>
+    <string name="dondedondodescr">Si lo tuyo es sentarse a escuchar música crossover este es el sitio ideal. Además los viernes en la noche hay karaoke y los sábados música en vivo.</string>
+    <string name="frontera">Frontera Discoteca</string>
+    <string name="fronteradescr">Si te gusta la rumba y bailar toda la noche, te esperamos todos los fines de semana. Ubicado en la zona rosa del municipio sector La Judea</string>
+    <string name="hotelplaza">Hotel Plaza</string>
+    <string name="hotelplazadescr">Hotel plaza ubicado en el parque principal del municipio, tenemos excelente servicio y cómodas habitaciones.</string>
+    <string name="araucarias">Hotel Las Araucarias</string>
+    <string name="araucariasdescr">Estamos ubicados a media cuadra de la autopista Medellín-Bogotá. Nuestro nombre es en honor de aquellos dos árboles que había en el parque principal, ven y te contaremos la historia!</string>
+    <string name="ruta60">Hotel Ruta 60</string>
+    <string name="ruta60descr">Estamos ubicados a medio kilómetro antes de llegar al municipio sentido Medellín-Bogotá. Nuestras instalaciones son las más modernas.</string>
+    <string name="title_activity_hotel">HOTELES</string>
+    <string name="museoj">Museo José María Córdova</string>
+    <string name="museojdescr">El museo está ubicado en la Alcaldía Municipal. Lugar donde residía José María Córdova y donde fue asesinado.</string>
+    <string name="museom">Museo \"Montecristo\"</string>
+    <string name="museomdescr">El museo está ubicado en la Alcaldía Municipal en honor al gran humorista Guillermo Zuluaga.</string>
+    <string name="ceramica">La Cerámica</string>
+    <string name="ceramicadescr">La antigua cerámica de El Santuario, ubicada en la vereda El Salto fue la primera en latinoamérica, ven y conoce este mágico lugar y su increible y fantástico nacimiento de agua</string>
+    <string name="title_activity_sitios">SITIOSTURÍSTICOS</string>
+    <string name="title_activity_drawer_bares">Bares</string>
+    <string name="title_activity_drawer_hoteles">Hoteles</string>
+    <string name="masopciones">Mas Opciones</string>
+    <string name="restaurantes">Restaurantes</string>
+    <string name="title_activity_drawer_main">Principal</string>
+    <string name="title_activity_drawer_restaurantes">Restaurantes</string>
+    <string name="title_activity_drawer_perfil">Mi Perfil</string>
+    <string name="title_activity_drawer_sitios">Sitios Turisticos</string>
+    <string name="sazon">La Sazon del Gordo</string>
+    <string name="terramonte">Terramonte</string>
+    <string name="terramontedescr">Lo invitamos a que visite nuestro Hotel para tener el gusto de atenderlo.   En nuestro Restaurante puede disfrutar de nuestros nuevos productos</string>
+    <string name="sazondescr">En nuestro Restaurante las especialidades son Los Asados, Platos Típicos y Frijoles.</string>
+    <string name="restauranteruta60">Restaurante Ruta 60</string>
+    <string name="restauranteruta60descr">El lugar ideal para disfrutar de buenas comidas, ubicado en la salida para Medellin</string>
+    <string name="atras">Atras</string>
+</resources>

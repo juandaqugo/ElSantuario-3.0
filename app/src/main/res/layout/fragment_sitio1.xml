@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.juandaqugo.elsantuario.Sitio1Fragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/ttexto1fragsitio"
+        android:text="@string/museoj"
+        android:textSize="35sp"
+        android:textAlignment="center"
+        android:textColor="@color/black"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/imagenjose"
+        android:src="@drawable/josemaria"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/tdescr1fragsitio"
+        android:text="@string/museojdescr"
+        android:textSize="20sp"
+        android:textColor="@color/blue"/>
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/m2principal"
+    android:title="Principal"/>
+    <item android:id="@+id/m2bares"
+        android:title="@string/bares"/>
+    <item android:id="@+id/m2hoteles"
+        android:title="@string/hoteles"/>
+    <item android:id="@+id/m2sitios"
+        android:title="@string/sitios"/>
+    <item android:id="@+id/m2cerrarsesion"
+        android:title="Cerrar Sesión"/>
+</menu>

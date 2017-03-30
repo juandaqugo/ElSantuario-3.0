@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.juandaqugo.elsantuario.SitiosActivity">
+    <item android:id="@+id/msperfil"
+        android:title="@string/miperfil"/>
+    <item android:id="@+id/msbares"
+        android:title="@string/bares"/>
+    <item android:id="@+id/mshoteles"
+        android:title="@string/hoteles"/>
+    <item android:id="@+id/mssitios"
+        android:title="@string/sitios"/>
+    <item android:id="@+id/mscerrar"
+        android:title="@string/cerrar"/>
+</menu>

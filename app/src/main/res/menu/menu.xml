@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/mperfil"
+        android:title="@string/miperfil"/>
+    <item android:id="@+id/mbares"
+        android:title="@string/bares"/>
+    <item android:id="@+id/mhoteles"
+        android:title="@string/hoteles"/>
+    <item android:id="@+id/msitios"
+        android:title="@string/sitios"/>
+    <item android:id="@+id/mcerrar"
+        android:title="@string/cerrar"/>
+
+</menu>

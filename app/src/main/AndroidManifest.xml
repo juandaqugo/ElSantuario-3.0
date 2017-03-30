@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.juandaqugo.elsantuario">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SplashActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PerfilActivity" />
+        <activity android:name=".LoginActivity"/>
+        <activity android:name=".RegistroActivity" />
+        <activity android:name=".DemoActivity" />
+        <!--
+            <activity
+            android:name=".HotelesActivity"
+            android:label="@string/title_activity_hoteles"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        -->
+        <activity
+            android:name=".fragmentsActivity"
+            android:label="@string/title_activity_fragments"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ListaActivity" />
+        <activity
+            android:name=".HotelActivity"
+            android:label="@string/title_activity_hotel"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SitiosActivity"
+            android:label="@string/title_activity_sitios"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DrawerBaresActivity"
+            android:label="@string/title_activity_drawer_bares"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DrawerHotelesActivity"
+            android:label="@string/title_activity_drawer_hoteles"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DrawerMainActivity"
+            android:label="@string/title_activity_drawer_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DrawerRestaurantesActivity"
+            android:label="@string/title_activity_drawer_restaurantes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DrawerPerfilActivity"
+            android:label="@string/title_activity_drawer_perfil"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DrawerSitiosActivity"
+            android:label="@string/title_activity_drawer_sitios"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Restaurante1Activity" />
+        <activity android:name=".Restaurante2Activity" />
+        <activity android:name=".Restaurante3Activity"></activity>
+    </application>
+
+</manifest>

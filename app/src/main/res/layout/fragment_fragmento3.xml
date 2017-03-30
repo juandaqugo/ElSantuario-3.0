@@ -1,0 +1,41 @@
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.juandaqugo.elsantuario.fragmento3Fragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/ttexto3fragbar"
+        android:text="@string/frontera"
+        android:textSize="35sp"
+        android:textAlignment="center"
+        android:textColor="@color/black"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:id="@+id/imagenfrontera"
+        android:src="@drawable/frontera"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:id="@+id/tdescr3fragbar"
+        android:text="@string/fronteradescr"
+        android:textSize="20sp"
+        android:textColor="@color/blue"/>
+
+</LinearLayout>
+
+</FrameLayout>
