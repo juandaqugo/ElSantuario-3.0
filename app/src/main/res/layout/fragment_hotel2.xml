@@ -6,12 +6,12 @@
     tools:context="com.juandaqugo.elsantuario.Hotel2Fragment">
 
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_weight="1"
         android:id="@+id/ttexto2fraghotel"
         android:text="@string/araucarias"
-        android:textSize="35sp"
+        android:textSize="25sp"
         android:textAlignment="center"
         android:textColor="@color/black"/>
     <ImageView
@@ -21,12 +21,21 @@
         android:id="@+id/imagenaraucarias"
         android:src="@drawable/araucarias"/>
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_weight="2"
         android:id="@+id/tdescr2fraghotel"
         android:text="@string/araucariasdescr"
         android:textSize="20sp"
         android:textColor="@color/blue"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:text="@string/mapa"
+        android:gravity="center"
+        android:id="@+id/Bhotelaraucarias"
+        android:background="@color/darkviolet"
+        android:textColor="@color/black"/>
 
 </LinearLayout>

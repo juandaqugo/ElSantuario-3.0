@@ -1,6 +1,7 @@
 package com.juandaqugo.elsantuario;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -25,6 +26,8 @@ public class DrawerHotelesActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
     Intent intent;
     String username, correo;
+    SharedPreferences prefs;
+    SharedPreferences.Editor editor;
     private SectionsPagerAdapter mSectionsPagerAdapter;
 
     private ViewPager mViewPager;
@@ -34,6 +37,10 @@ public class DrawerHotelesActivity extends AppCompatActivity
         Bundle extras = getIntent().getExtras();
         username = extras.getString("username");
         correo = extras.getString("correo");
+
+        prefs = getSharedPreferences("MisPreferencias", MODE_PRIVATE);
+        editor = prefs.edit();
+
         setContentView(R.layout.activity_drawer_hoteles);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -178,6 +185,8 @@ public class DrawerHotelesActivity extends AppCompatActivity
 
         } else if (id == R.id.cerrarh) {
             Intent intent = new Intent(DrawerHotelesActivity.this, LoginActivity.class);
+            editor.putInt("login",-1);
+            editor.commit();
             intent.putExtra("username", username);
             intent.putExtra("correo", correo);
             startActivity(intent);

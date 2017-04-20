@@ -32,5 +32,14 @@
         android:text="@string/sazondescr"
         android:textSize="20sp"
         android:textColor="@color/blue"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:text="@string/mapa"
+        android:gravity="center"
+        android:id="@+id/Bsazon"
+        android:background="@color/darkviolet"
+        android:textColor="@color/black"/>
 
 </LinearLayout>

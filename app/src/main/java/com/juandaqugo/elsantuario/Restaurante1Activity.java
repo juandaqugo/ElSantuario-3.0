@@ -5,10 +5,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 
 public class Restaurante1Activity extends AppCompatActivity {
-    Intent intent;
     String username, correo;
+    Button bmapa;
+    Intent intent;
+    String lugar = "sazon";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -16,6 +20,15 @@ public class Restaurante1Activity extends AppCompatActivity {
         Bundle extras = getIntent().getExtras();
         username = extras.getString("username");
         correo = extras.getString("correo");
+        bmapa = (Button) findViewById(R.id.Bsazon);
+        bmapa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                intent = new Intent(Restaurante1Activity.this ,MapsActivity.class);
+                intent.putExtra("lugar", lugar);
+                startActivity(intent);
+            }
+        });
     }
 
     @Override

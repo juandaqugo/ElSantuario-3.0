@@ -61,4 +61,6 @@
     <string name="restauranteruta60">Restaurante Ruta 60</string>
     <string name="restauranteruta60descr">El lugar ideal para disfrutar de buenas comidas, ubicado en la salida para Medellin</string>
     <string name="atras">Atras</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="mapa">Ver Mapa</string>
 </resources>

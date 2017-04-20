@@ -29,9 +29,9 @@ public class ListaActivity extends AppCompatActivity {
     Intent intent;
     String username, correo;
     private Lista_Entrada [] datos_bares= new Lista_Entrada[]{
-            new Lista_Entrada(R.drawable.sazon, "La Sazon del Gordo", "Autopista"),
-            new Lista_Entrada(R.drawable.terramontea, "Terramonte", "Parque Principal "),
-            new Lista_Entrada(R.drawable.restauranteruta60, "Restaurante Ruta 60", "Salida a Medellin ")};
+            new Lista_Entrada(R.drawable.icono_sazon, "La Sazon del Gordo", "Autopista"),
+            new Lista_Entrada(R.drawable.icono_terramonte, "Terramonte", "Parque Principal "),
+            new Lista_Entrada(R.drawable.icono_restauranteruta60, "Restaurante Ruta 60", "Salida a Medellin ")};
     ListView list_restaurantes;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,19 +56,19 @@ public class ListaActivity extends AppCompatActivity {
                         intent.putExtra("username", username);
                         intent.putExtra("correo", correo);
                         startActivity(intent);
-                       // finish();
+                        finish();
                         break;
                     case 1 :  intent = new Intent(ListaActivity.this, Restaurante2Activity.class);
                         intent.putExtra("username", username);
                         intent.putExtra("correo", correo);
                         startActivity(intent);
-                       // finish();
+                        finish();
                         break;
                     case 2 :   intent = new Intent(ListaActivity.this, Restaurante3Activity.class);
                         intent.putExtra("username", username);
                         intent.putExtra("correo", correo);
                         startActivity(intent);
-                       // finish();
+                        finish();
                         break;
                 }
             }

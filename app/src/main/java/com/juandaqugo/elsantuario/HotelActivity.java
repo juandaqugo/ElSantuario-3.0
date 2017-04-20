@@ -42,9 +42,9 @@ public class HotelActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hotel);
-        //Bundle extras = getIntent().getExtras();
-        //username = extras.getString("username");
-        //correo = extras.getString("correo");
+        Bundle extras = getIntent().getExtras();
+        username = extras.getString("username");
+        correo = extras.getString("correo");
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         // Create the adapter that will return a fragment for each of the three

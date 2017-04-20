@@ -23,10 +23,19 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_weight="2"
         android:id="@+id/tdescr3fragsitio"
         android:text="@string/ceramicadescr"
         android:textSize="17sp"
         android:textColor="@color/blue"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/mapa"
+        android:gravity="center"
+        android:id="@+id/Bceramica"
+        android:background="@color/darkviolet"
+        android:textColor="@color/black"/>
 
 </LinearLayout>

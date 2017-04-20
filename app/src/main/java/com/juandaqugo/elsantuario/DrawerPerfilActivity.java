@@ -1,6 +1,7 @@
 package com.juandaqugo.elsantuario;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -20,6 +21,8 @@ public class DrawerPerfilActivity extends AppCompatActivity
     Intent intent;
     TextView tpusernamep, tpcorreop;
     String username, correo;
+    SharedPreferences prefs;
+    SharedPreferences.Editor editor;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,6 +33,10 @@ public class DrawerPerfilActivity extends AppCompatActivity
         Bundle extras = getIntent().getExtras();
         username = extras.getString("username");
         correo = extras.getString("correo");
+
+        prefs = getSharedPreferences("MisPreferencias", MODE_PRIVATE);
+        editor = prefs.edit();
+
         tpusernamep = (TextView) findViewById(R.id.tpusernamep);
         tpcorreop = (TextView) findViewById(R.id.tpcorreop);
         tpusernamep.setText(username);
@@ -119,6 +126,8 @@ public class DrawerPerfilActivity extends AppCompatActivity
             finish();
 
         } else if (id == R.id.cerrarp) {
+            editor.putInt("login",-1);
+            editor.commit();
             intent = new Intent(DrawerPerfilActivity.this, LoginActivity.class);
             startActivity(intent);
             finish();

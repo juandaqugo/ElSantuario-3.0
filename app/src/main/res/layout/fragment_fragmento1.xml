@@ -1,14 +1,10 @@
-<FrameLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.juandaqugo.elsantuario.fragmento1Fragment">
-
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
@@ -34,6 +30,13 @@
         android:text="@string/erotanatosdescr"
         android:textSize="20sp"
         android:textColor="@color/blue"/>
-
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:text="@string/mapa"
+        android:gravity="center"
+        android:id="@+id/Beros"
+        android:background="@color/darkviolet"
+        android:textColor="@color/black"/>
 </LinearLayout>
-</FrameLayout>

@@ -6,27 +6,36 @@
     tools:context="com.juandaqugo.elsantuario.Hotel1Fragment">
 
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_weight="1"
         android:id="@+id/ttexto1fraghotel"
         android:text="@string/hotelplaza"
-        android:textSize="35sp"
+        android:textSize="25sp"
         android:textAlignment="center"
         android:textColor="@color/black"/>
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:layout_weight="2"
+        android:layout_weight="1"
         android:id="@+id/imagenhotelplaza"
         android:src="@drawable/hotelplaza"/>
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_weight="2"
         android:id="@+id/tdescr1fraghotel"
         android:text="@string/hotelplazadescr"
         android:textSize="20sp"
         android:textColor="@color/blue"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:text="@string/mapa"
+        android:gravity="center"
+        android:id="@+id/Bhotelplaza"
+        android:background="@color/darkviolet"
+        android:textColor="@color/black"/>
 
 </LinearLayout>
